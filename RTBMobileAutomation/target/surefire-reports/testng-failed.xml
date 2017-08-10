@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [Suite1]" parallel="tests">
+  <test name="Mobile_16709(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.MobileTestScriptCart_16709">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="verifyAllItemsRemovalFromCart_16709_Mobile"/>
+          <include name="verifyBlankCoupanSubmit_16709_Mobile"/>
+          <include name="verifyActionsText_16709_Mobile"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="verifyItemRemovedFromCart_16709_Mobile"/>
+        </methods>
+      </class> <!-- TestCases.MobileTestScriptCart_16709 -->
+      <class name="Utility.Base">
+        <methods>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- Utility.Base -->
+    </classes>
+  </test> <!-- Mobile_16709(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

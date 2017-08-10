@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="node" value="http://127.0.0.1:4730/wd/hub"/>
+  <parameter name="platformVersion" value="5.0"/>
+  <parameter name="deviceID" value="192.168.2.87:5555"/>
+  <test name="Mobile_16761(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.MobileTestScriptSeries_16761">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="seriesCategorySlider_16761_Mobile"/>
+          <include name="extentSetup"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- TestCases.MobileTestScriptSeries_16761 -->
+    </classes>
+  </test> <!-- Mobile_16761(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

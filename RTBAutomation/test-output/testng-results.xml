@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="184566" started-at="2017-07-05T12:45:34Z" finished-at="2017-07-05T12:48:39Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestScriptKES_16498.CategoryPageAllProductHoverThumbnailSlider()[pri:0, instance:TestCases.TestScriptKES_16498@7d9d1a19]" name="CategoryPageAllProductHoverThumbnailSlider" class="TestCases.TestScriptKES_16498"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestScriptKES_16498.CategoryPageAllProductHoverThumbnailSlider()[pri:0, instance:TestCases.TestScriptKES_16498@7d9d1a19]" name="CategoryPageAllProductHoverThumbnailSlider" class="TestCases.TestScriptKES_16498"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="16035_firefox" duration-ms="184566" started-at="2017-07-05T12:45:34Z" finished-at="2017-07-05T12:48:39Z">
+      <class name="TestCases.TestScriptKES_16498">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:TestCases.TestScriptKES_16498@7d9d1a19]" name="extentSetup" is-config="true" duration-ms="268" started-at="2017-07-05T18:15:34Z" finished-at="2017-07-05T18:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c00384f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:TestCases.TestScriptKES_16498@7d9d1a19]" name="initializeTestBaseSetup" is-config="true" duration-ms="8803" started-at="2017-07-05T18:15:34Z" finished-at="2017-07-05T18:15:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TestCases.TestScriptKES_16498.CategoryPageAllProductHoverThumbnailSlider() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="CategoryPageAllProductHoverThumbnailSlider()[pri:0, instance:TestCases.TestScriptKES_16498@7d9d1a19]" name="CategoryPageAllProductHoverThumbnailSlider" duration-ms="174899" started-at="2017-07-05T18:15:43Z" finished-at="2017-07-05T18:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CategoryPageAllProductHoverThumbnailSlider -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult, java.lang.String)[pri:0, instance:TestCases.TestScriptKES_16498@7d9d1a19]" name="afterEachTestMethod" is-config="true" duration-ms="855" started-at="2017-07-05T18:18:38Z" finished-at="2017-07-05T18:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CategoryPageAllProductHoverThumbnailSlider status=SUCCESS method=TestScriptKES_16498.CategoryPageAllProductHoverThumbnailSlider()[pri:0, instance:TestCases.TestScriptKES_16498@7d9d1a19] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:TestCases.TestScriptKES_16498@7d9d1a19]" name="generateReport" is-config="true" duration-ms="71" started-at="2017-07-05T18:18:39Z" finished-at="2017-07-05T18:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- TestCases.TestScriptKES_16498 -->
+    </test> <!-- 16035_firefox -->
+  </suite> <!-- Suite1 -->
+</testng-results>

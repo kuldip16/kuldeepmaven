@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite1]">
+  <test name="My Account: Create Account(failed)">
+    <classes>
+      <class name="TestCases.MyAccount12398_02">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="Registration_MandatoryFieldsCheck"/>
+          <include name="CreateAccount"/>
+          <include name="extentSetup"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- TestCases.MyAccount12398_02 -->
+    </classes>
+  </test> <!-- My Account: Create Account(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

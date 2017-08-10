@@ -1,0 +1,7 @@
+UtilityMobile\ExtentTestManager.class
+PageObjects\CategoriesPage.class
+PageObjects\HomePage.class
+UtilityMobile\BaseMobile.class
+PageObjects\LeftNavigationMenu.class
+TestCases\AddToCart.class
+UtilityMobile\ExtentManager.class

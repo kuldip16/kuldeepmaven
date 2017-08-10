@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <parameter name="browser" value="firefox"/>
+  <test name="16035_firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestCases.TestScriptKES_16498">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="extentSetup"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="CategoryPageAllProductHoverThumbnailSlider"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- TestCases.TestScriptKES_16498 -->
+    </classes>
+  </test> <!-- 16035_firefox(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

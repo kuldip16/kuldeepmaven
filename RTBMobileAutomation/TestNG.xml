@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1"  parallel="tests" thread-count="2"> 
+
+   <groups>
+     <run>
+      <include name="Regression"/>
+     </run>
+   </groups>
+   
+ <parameter name="deviceID" value="192.168.2.87:5555"></parameter>
+   <parameter name="node" value="http://127.0.0.1:4730/wd/hub"></parameter>
+   <parameter name="platformVersion" value="5.0"></parameter>
+
+<test name="Mobile_16761" > 
+  
+    <classes>
+       <class name="Utility.Base" />
+       <class name="TestCases.MobileTestScriptSeries_16761" />
+    </classes> 
+    
+  </test>
+
+   
+<!-- <test name="Mobile_16641" > 
+  
+    <classes>
+       <class name="Utility.Base" />
+       <class name="TestCases.MobileTestScriptMaken_16641" />
+    </classes> 
+    
+  </test>
+ -->
+ 
+ <!-- <test name="Mobile_16151" > 
+  
+    <classes>
+       <class name="Utility.Base" />
+       <class name="TestCases.MobileTestScriptSearch_16151" />
+    </classes> 
+    
+  </test> -->
+
+<!-- <parameter name="deviceID" value="192.168.27.2:5555"></parameter>
+   <parameter name="node" value="http://127.0.0.1:4723/wd/hub"></parameter>
+   <parameter name="platformVersion" value="5.1"></parameter>
+   
+<test name="Mobile_16498" > 
+  
+    <classes>
+       <class name="Utility.Base" />
+       <class name="TestCases.MobileTestScriptKES_16498" />
+    </classes> 
+    
+  </test> -->
+
+</suite>

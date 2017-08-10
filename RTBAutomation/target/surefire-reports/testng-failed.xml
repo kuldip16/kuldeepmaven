@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite1]">
+  <parameter name="browser" value="firefox"/>
+  <test name="16035_firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestCases.WriteExcel">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="test"/>
+          <include name="extentSetup"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- TestCases.WriteExcel -->
+    </classes>
+  </test> <!-- 16035_firefox(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

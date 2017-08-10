@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="10.291" tests="6" errors="0" skipped="4" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Automation Test\HomeSofa"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Automation Test\HomeSofa"/>
+    <property name="java.runtime.version" value="1.8.0_45-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\Automation Test\HomeSofa"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\nitin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Automation Test\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6293249004252756130.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_45/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_45/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_45/bin/../jre/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Maven\bin;D:\apache-ant-1.9.7\bin;C:\Program Files\Git\cmd;C:\Users\nitin\AppData\Local\Android\sdk\tools;C:\Users\nitin\AppData\Local\Android\sdk\platform-tools;C:\Program Files (x86)\cURL\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_45\bin;D:\libs;C:\Users\nitin\AppData\Roaming\Skype\My Skype Received Files\libs;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone;D:\xampp\php;C:\Users\nitin\AppData\Local\ComposerSetup\bin;C:\Users\nitin\AppData\Roaming\Composer\vendor\bin;D:\eclipse-mars-2\eclipse;;."/>
+    <property name="surefire.test.class.path" value="D:\Automation Test\HomeSofa\target\test-classes;D:\Automation Test\HomeSofa\target\classes;C:\Users\nitin\.m2\repository\org\seleniumhq\selenium\selenium-server\3.4.0\selenium-server-3.4.0.jar;C:\Users\nitin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.4.0\selenium-java-3.4.0.jar;C:\Users\nitin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.4.0\selenium-api-3.4.0.jar;C:\Users\nitin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\nitin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.4.0\selenium-edge-driver-3.4.0.jar;C:\Users\nitin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.4.0\selenium-firefox-driver-3.4.0.jar;C:\Users\nitin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.4.0\selenium-ie-driver-3.4.0.jar;C:\Users\nitin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.4.0\selenium-opera-driver-3.4.0.jar;C:\Users\nitin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.4.0\selenium-remote-driver-3.4.0.jar;C:\Users\nitin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.4.0\selenium-safari-driver-3.4.0.jar;C:\Users\nitin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.4.0\selenium-support-3.4.0.jar;C:\Users\nitin\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\nitin\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\nitin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nitin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\nitin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\nitin\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\nitin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nitin\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\nitin\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.22\cssparser-0.9.22.jar;C:\Users\nitin\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\nitin\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\nitin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\nitin\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.26\htmlunit-2.26.jar;C:\Users\nitin\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.26\htmlunit-core-js-2.26.jar;C:\Users\nitin\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.25\neko-htmlunit-2.25.jar;C:\Users\nitin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\nitin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\nitin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\nitin\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\nitin\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.1.v20170120\jetty-repacked-9.4.1.v20170120.jar;C:\Users\nitin\.m2\repository\org\eclipse\jetty\jetty-io\9.4.1.v20170120\jetty-io-9.4.1.v20170120.jar;C:\Users\nitin\.m2\repository\org\eclipse\jetty\jetty-util\9.4.1.v20170120\jetty-util-9.4.1.v20170120.jar;C:\Users\nitin\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\nitin\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\nitin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\nitin\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\nitin\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.26\htmlunit-driver-2.26.jar;C:\Users\nitin\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\nitin\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.3.v20170317\websocket-api-9.4.3.v20170317.jar;C:\Users\nitin\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.3.v20170317\websocket-client-9.4.3.v20170317.jar;C:\Users\nitin\.m2\repository\org\eclipse\jetty\jetty-client\9.4.3.v20170317\jetty-client-9.4.3.v20170317.jar;C:\Users\nitin\.m2\repository\org\eclipse\jetty\jetty-http\9.4.3.v20170317\jetty-http-9.4.3.v20170317.jar;C:\Users\nitin\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.3.v20170317\websocket-common-9.4.3.v20170317.jar;C:\Users\nitin\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\nitin\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\nitin\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\nitin\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\nitin\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\nitin\.m2\repository\com\sikulix\sikulixapi\1.1.0\sikulixapi-1.1.0.jar;C:\Users\nitin\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\nitin\.m2\repository\com\melloware\jintellitype\1.3.7\jintellitype-1.3.7.jar;C:\Users\nitin\.m2\repository\jxgrabkey\jxgrabkey\1.0\jxgrabkey-1.0.jar;C:\Users\nitin\.m2\repository\org\swinglabs\swing-layout\1.0.3\swing-layout-1.0.3.jar;C:\Users\nitin\.m2\repository\com\nativelibs4java\bridj\0.6.2\bridj-0.6.2.jar;C:\Users\nitin\.m2\repository\com\sikulix\sikulixlibswin\1.1.0\sikulixlibswin-1.1.0.jar;C:\Users\nitin\.m2\repository\io\appium\java-client\3.3.0\java-client-3.3.0.jar;C:\Users\nitin\.m2\repository\cglib\cglib\3.1\cglib-3.1.jar;C:\Users\nitin\.m2\repository\org\ow2\asm\asm\4.2\asm-4.2.jar;C:\Users\nitin\.m2\repository\commons-validator\commons-validator\1.4.1\commons-validator-1.4.1.jar;C:\Users\nitin\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;C:\Users\nitin\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\nitin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\nitin\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\nitin\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\nitin\.m2\repository\com\relevantcodes\extentreports\2.41.0\extentreports-2.41.0.jar;C:\Users\nitin\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\nitin\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\nitin\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\nitin\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\nitin\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\nitin\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\nitin\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.14.1\surefire-testng-utils-2.14.1.jar;C:\Users\nitin\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.14.1\surefire-grouper-2.14.1.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\nitin"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="webdriver.gecko.driver" value="D:\Automation Test\HomeSofa\geckodriver.exe"/>
+    <property name="user.name" value="nitin"/>
+    <property name="java.class.path" value="/D:/eclipse-mars-2/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_45\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Automation Test\HomeSofa\EMBEDDED"/>
+    <property name="localRepository" value="C:\Users\nitin\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="CreateAccount" classname="TestCases.MyAccount12398_02" time="4.969">
+    <failure message="expected [Ihr Kundenbereich] but found [Anmeldung]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Ihr Kundenbereich] but found [Anmeldung]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at TestCases.MyAccount12398_02.CreateAccount(MyAccount12398_02.java:47)
+</failure>
+    <system-out>testuser18354@mailinator.com
+</system-out>
+    <system-err><![CDATA[1495717490955	geckodriver	INFO	Listening on 127.0.0.1:36289
+1495717491306	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1495717491608	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < AddonManagerInternal.validateBlocklist()@resource://gre/modules/AddonManager.jsm:700 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:870 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1677: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1495717494113	Marionette	INFO	Listening on port 50967
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2585: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+May 25, 2017 6:34:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/FileUtils.jsm, line 70: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]
+]]></system-err>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="TestCases.MyAccount12398_02" time="5.322">
+    <failure message="Reached error page: about:neterror?e=unknownProtocolFound&amp;u=d%3A%5CAutomation%2520Test%5CHomeSofa%5CScreenshots%5CCreateAccount.png&amp;c=&amp;f=regular&amp;d=Firefox%20doesn%E2%80%99t%20know%20how%20to%20open%20this%20address%2C%20because%20one%20of%20the%20following%20protocols%20%28d%29%20isn%E2%80%99t%20associated%20with%20any%20program%20or%20is%20not%20allowed%20in%20this%20context.&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;WV619&apos;, ip: &apos;169.254.34.178&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\nitin\AppData\Local\Temp\rust_mozprofile.v9NfAa7obO7Y, rotatable=false, timeouts={implicit=0.0, page load=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.2, platformVersion=6.1, moz:processID=5872.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 7b57d83d-6da0-4bac-bd9d-e73be3162cc3" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=unknownProtocolFound&u=d%3A%5CAutomation%2520Test%5CHomeSofa%5CScreenshots%5CCreateAccount.png&c=&f=regular&d=Firefox%20doesn%E2%80%99t%20know%20how%20to%20open%20this%20address%2C%20because%20one%20of%20the%20following%20protocols%20%28d%29%20isn%E2%80%99t%20associated%20with%20any%20program%20or%20is%20not%20allowed%20in%20this%20context.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WV619', ip: '169.254.34.178', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\nitin\AppData\Local\Temp\rust_mozprofile.v9NfAa7obO7Y, rotatable=false, timeouts={implicit=0.0, page load=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.2, platformVersion=6.1, moz:processID=5872.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 7b57d83d-6da0-4bac-bd9d-e73be3162cc3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:364)
+	at Utility.Base.afterEachTestMethod(Base.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:83)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:793)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:703)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:631)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+]]></failure>
+    <system-err>JavaScript error: chrome://marionette/content/listener.js, line 1117: NS_ERROR_UNKNOWN_PROTOCOL: 
+</system-err>
+  </testcase>
+  <testcase name="initializeTestBaseSetup" classname="TestCases.MyAccount12398_02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Registration_MandatoryFieldsCheck" classname="TestCases.MyAccount12398_02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="TestCases.MyAccount12398_02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="generateReport" classname="TestCases.MyAccount12398_02" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

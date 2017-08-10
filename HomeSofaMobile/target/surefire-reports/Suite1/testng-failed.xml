@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite1]">
+  <test name="Footer(failed)">
+    <classes>
+      <class name="UtilityMobile.BaseMobile">
+        <methods>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- UtilityMobile.BaseMobile -->
+      <class name="TestCases.VerifyOrderProcess">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="OrderByRechnung"/>
+        </methods>
+      </class> <!-- TestCases.VerifyOrderProcess -->
+    </classes>
+  </test> <!-- Footer(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

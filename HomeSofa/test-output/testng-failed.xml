@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="My Account: Create Account(failed)">
+    <classes>
+      <class name="Utility.Base">
+        <methods>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- Utility.Base -->
+      <class name="Sikuli_TestCases.MyAccount_Page_UI">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="MyAccountGUI"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- Sikuli_TestCases.MyAccount_Page_UI -->
+    </classes>
+  </test> <!-- My Account: Create Account(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

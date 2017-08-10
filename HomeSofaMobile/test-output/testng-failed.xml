@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Footer(failed)">
+    <classes>
+      <class name="TestCases.VerifyOrderProcess">
+        <methods>
+          <include name="extentSetup"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="generateReport"/>
+          <include name="afterEachTestMethod"/>
+          <include name="OrderByRechnung"/>
+        </methods>
+      </class> <!-- TestCases.VerifyOrderProcess -->
+    </classes>
+  </test> <!-- Footer(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
